@@ -1,6 +1,6 @@
 # Hugo variables
 #
-baseurl = "https://koooge.netlify.com/"
+baseurl = "https://koooge.com/"
 languageCode = "ja"
 title = "ワナビーエンジニアのブログ / Wannabe engineer's blog"
 theme = "hugo-theme-bootstrap4-blog"
