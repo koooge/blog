@@ -1,6 +1,7 @@
 ---
 title: "CMSにしたい"
 date: 2018-03-13T14:33:48.000Z
+categories: ["infra"]
 draft: false
 ---
 

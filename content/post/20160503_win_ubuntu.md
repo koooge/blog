@@ -1,6 +1,7 @@
 ---
 title: "Bash on Ubuntu on Windowsが起動しなくなった"
 date: 2018-03-13T14:28:32.000Z
+catgories: ["windows", "bash", "ubuntu"]
 draft: false
 ---
 

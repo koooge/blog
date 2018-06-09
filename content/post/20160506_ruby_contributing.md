@@ -1,6 +1,7 @@
 ---
 title: "rubyに貢献してみる（ことを目指す)"
 date: 2018-03-13T14:29:38.000Z
+categories: ["ruby"]
 draft: false
 ---
 

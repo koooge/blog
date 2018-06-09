@@ -1,6 +1,7 @@
 ---
 title: "rubyではreturn書かないと思いますが"
 date: 2018-03-13T14:29:18.000Z
+categories: ["ruby"]
 draft: false
 ---
 

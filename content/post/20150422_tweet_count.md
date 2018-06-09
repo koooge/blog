@@ -1,6 +1,7 @@
 ---
 title: "ツイートボタンのツイート数の取得"
 date: 2018-03-13T14:24:58.000Z
+categories: ["misc"]
 draft: false
 ---
 

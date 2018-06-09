@@ -1,6 +1,7 @@
 ---
 title: "embulk-parser-csv_guessable作った"
 date: 2018-03-13T14:33:17.000Z
+categories: ["java", "infra", "embulk"]
 draft: false
 ---
 

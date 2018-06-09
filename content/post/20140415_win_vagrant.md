@@ -1,6 +1,7 @@
 ---
 title: "windowsでvagrant設定って割とめんどいですよね"
 date: 2018-03-13T14:22:03.000Z
+categories: ["vagrant", "infra", "windows"]
 draft: false
 ---
 

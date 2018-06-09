@@ -1,6 +1,7 @@
 ---
 title: "Rubyの#13053を読んでみる(1)"
 date: 2018-03-13T14:30:25.000Z
+categories: ["ruby"]
 draft: false
 ---
 
