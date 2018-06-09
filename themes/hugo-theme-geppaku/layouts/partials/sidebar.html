@@ -1,0 +1,62 @@
+<div class="sidebar">
+  {{ with .Site.Params.adsense.sidebar }}
+  <div class="sidebar-content">
+    <div class="sidebar-header">
+      <span>Sponsored link</span>
+    </div>
+    <div class="adsense">
+      {{ partial . }}
+    </div>
+  </div>
+  {{ end }}
+  {{ if .Site.Author }}
+  <div class="sidebar-content">
+    <div class="sidebar-header">
+      <span>Author</span>
+    </div>
+    <div id="author">
+      <span>{{ .Site.Author.name }}</span>
+      <div>
+        {{ with .Site.Author.twitter }}
+        <a href="https://twitter.com/{{ . }}"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+        {{ end }}
+        {{ with .Site.Author.github }}
+        <a href="https://github.com/{{ . }}"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+        {{ end }}
+        {{ with .Site.Author.linkedin }}
+        <a href="https://www.linkedin.com/in/{{ . }}"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+        {{ end }}
+        {{ with .Site.Author.tumblr }}
+        <a href="https://{{ . }}.tumblr.com/"><i class="fa fa-tumblr-square fa-2x" aria-hidden="true"></i></a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  {{ end }}
+  {{ with .Site.Taxonomies.categories }}
+  <div class="sidebar-content">
+    <div class="sidebar-header">
+      <span>Categories</span>
+    </div>
+    <div class="categories">
+      <ul>
+        {{ range $category, $taxonomy := . }}
+        <li>
+          <a href="{{ "/categories/" | relURL }}{{ $category | urlize }}"><span></span>{{ $category }} ({{ $taxonomy.Count }})</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+  {{ end }}
+  <div class="sidebar-content">
+    <div class="sidebar-header">
+      <span>RSS</span>
+    </div>
+    <div id="rss">
+      <a href="{{ or .RSSLink .Site.RSSLink }}" type="application/rss+xml" target="_blank">
+        <i class="fa fa-rss-square fa-2x" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</div>

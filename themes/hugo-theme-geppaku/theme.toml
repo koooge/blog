@@ -1,0 +1,12 @@
+name = "Geppaku"
+license = "MIT"
+licenselink = "https://github.com/masa0221/hugo-theme-geppaku/blob/master/LICENSE.md"
+description = "Geppaku is bluish white theme for Hugo"
+homepage = "https://github.com/masa0221/hugo-theme-geppaku"
+tags = ["blog", "personal"]
+features = ["blog"]
+min_version = 0.15
+
+[author]
+  name = "Masashi Tsuru"
+  homepage = "http://2626.info/"
