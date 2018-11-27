@@ -22,7 +22,7 @@ disqusShortname = "" # Optional
         # This is Optional values
         twitter  = true
         # facebook = true
-        # hatena   = true # hatena is Japanese social media
+        hatena   = true # hatena is Japanese social media
         google   = true
         # pocket   = true
         # Please set id when you want to display facebook
