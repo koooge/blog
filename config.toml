@@ -1,7 +1,7 @@
 baseurl = "https://koooge.com/"
 languageCode = "ja"
 title = "ワナビーエンジニアのブログ / Wannabe engineer's blog"
-theme= "hugo-theme-geppaku"
+theme= "@koooge/hugo-theme-geppaku"
 googleAnalytics = "" # Optional
 disqusShortname = "" # Optional
 
