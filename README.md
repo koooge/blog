@@ -16,5 +16,5 @@ $ hugo new content/post/yyyymmdd_<title>.md
 
 ### preview
 ```
-$ hugo server --theme=hugo-theme-geppaku --buildDrafts --watch
+$ hugo server --theme=@koooge/hugo-theme-geppaku --buildDrafts --watch
 ```
