@@ -4,6 +4,7 @@ title = "ワナビーエンジニアのブログ / Wannabe engineer's blog"
 theme= "@koooge/hugo-theme-geppaku"
 googleAnalytics = "" # Optional
 disqusShortname = "" # Optional
+enableRobotsTXT = true
 
 [author]
     # If you want to display author information set these
