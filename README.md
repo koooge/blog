@@ -5,7 +5,7 @@ Wannabe engineer's blog https://koooge.com/
 
 ## Setting
 ### Netlify
-Build command: `$ hugo -t hugo-theme-geppuku`
+Build command: `$ hugo -t @koooge/hugo-theme-geppuku`
 Publish directory: `public`
 
 ## Usage
@@ -16,5 +16,5 @@ $ hugo new content/post/yyyymmdd_<title>.md
 
 ### preview
 ```
-$ hugo server --theme=@koooge/hugo-theme-geppaku --buildDrafts --watch
+$ hugo server --theme=@koooge/hugo-theme-geppaku --buildDrafts --bind=0.0.0.0 --watch
 ```
