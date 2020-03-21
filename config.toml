@@ -3,7 +3,7 @@ languageCode = "ja"
 title = "ワナビーエンジニアのブログ / Wannabe engineer's blog"
 theme= "@koooge/hugo-theme-geppaku"
 googleAnalytics = "UA-86293825-2" # Optional
-disqusShortname = "" # Optional
+disqusShortname = "koooge" # Optional
 enableRobotsTXT = true
 
 [author]
