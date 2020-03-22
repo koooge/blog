@@ -6,6 +6,9 @@ googleAnalytics = "UA-86293825-2" # Optional
 disqusShortname = "koooge" # Optional
 enableRobotsTXT = true
 
+[markup.highlight]
+  guessSyntax = true
+
 [author]
     # If you want to display author information set these
     # This is Optional values
