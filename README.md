@@ -5,7 +5,7 @@ Wannabe engineer's blog https://koooge.com/
 
 ## Setting
 ### Netlify
-Build command: `$ hugo -t @koooge/hugo-theme-geppuku`
+Build command: `$ hugo -t @koooge/hugo-theme-geppaku --minify`
 Publish directory: `public`
 
 ## Usage
