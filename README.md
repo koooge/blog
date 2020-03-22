@@ -11,7 +11,7 @@ Publish directory: `public`
 ## Usage
 ### Create a new post
 ```
-$ hugo new content/post/yyyymmdd_<title>.md
+$ hugo new content/posts/<yyyy>/<mm>/<title>.md
 ```
 
 ### preview
