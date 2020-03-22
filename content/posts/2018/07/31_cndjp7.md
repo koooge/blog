@@ -3,6 +3,7 @@ title: "cndjp第7回勉強会でLTしてきました"
 date: 2018-07-31T23:05:50+09:00
 categories: ["infra", "mackerel", "kubernetes"]
 draft: false
+aliases: ["/post/20180931_cndjp7/"]
 ---
 
 [cndjp](https://cnd.connpass.com/event/93986/)でkubernetes環境のmackerelでの監視についてLTしてきました。

@@ -3,6 +3,7 @@ title: "Ghostに移行しました"
 date: 2018-03-29T02:00:00.000Z
 categories: ["infra"]
 draft: false
+aliases: ["/post/20180402_ghost/"]
 ---
 
 はてなブログをやめ、Ghost [https://ghost.org/]に移行した。理由は前回書いた通りです。いろいろな知見を得たので綴っておきたいと思います。

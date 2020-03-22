@@ -3,6 +3,7 @@ title: "leetcodeはじめた"
 date: 2019-05-23T01:35:24+09:00
 categories: ["leetcode"]
 draft: false
+aliases: ["/post/20190523_leetcode/"]
 ---
 
 [leetcode](https://leetcode.com/)というオンラインでプログラムを解くサービスを教えてもらった。Googleとかのホワイドボード面接はこういう問題を解いてるらしい。他にも[HuckerRank](https://www.hackerrank.com/)がメジャーどころだそう。

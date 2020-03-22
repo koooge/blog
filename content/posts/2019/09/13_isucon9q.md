@@ -3,6 +3,7 @@ title: "ISUCON9参加した"
 date: 2019-09-13T00:16:47+09:00
 categories: ["node", "nginx", "event"]
 draft: false
+aliases: ["/post/20190913_isucon9q/"]
 ---
 
 [Rebuild.fm 246](http://rebuild.fm/246/)でghostとhugoの話をしていて、"ghostやhugoへの移行記事だけ書いて更新止まる奴"と聴いてギクリとしました。もろに私です。

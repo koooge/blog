@@ -3,6 +3,7 @@ title: "CMSにしたい"
 date: 2018-03-13T14:33:48.000Z
 categories: ["infra"]
 draft: false
+aliases: ["/post/20180401_migrate_to_cms/"]
 ---
 
 はてなブログをやめ、WordPressのようなブログ機能のあるCMSに変更したいと思っています。理由は下記の3点。
