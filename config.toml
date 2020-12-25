@@ -1,7 +1,7 @@
 baseurl = "https://koooge.com/"
 theme = "@koooge/hugo-theme-geppaku"
 defaultContentLanguage = "ja"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 googleAnalytics = "UA-86293825-2" # Optional
 disqusShortname = "koooge" # Optional
