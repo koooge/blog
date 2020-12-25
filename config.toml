@@ -1,10 +1,17 @@
 baseurl = "https://koooge.com/"
-languageCode = "ja"
-title = "ワナビーエンジニアのブログ / Wannabe engineer's blog"
-theme= "@koooge/hugo-theme-geppaku"
+theme = "@koooge/hugo-theme-geppaku"
+defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = true
+
 googleAnalytics = "UA-86293825-2" # Optional
 disqusShortname = "koooge" # Optional
 enableRobotsTXT = true
+
+[languages]
+  [languages.ja]
+    title = "ワナビーエンジニアのブログ"
+  [languages.en]
+    title = "Wannabe engineer's blog"
 
 [markup.highlight]
   guessSyntax = true
