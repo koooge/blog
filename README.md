@@ -16,5 +16,5 @@ $ hugo new posts/<yyyy>/<mm>/<dd>_<title>/index.md
 
 ### preview
 ```
-$ hugo server --theme=@koooge/hugo-theme-geppaku --buildDrafts --bind=0.0.0.0 --watch
+$ hugo server --buildDrafts --bind=0.0.0.0 --watch
 ```
