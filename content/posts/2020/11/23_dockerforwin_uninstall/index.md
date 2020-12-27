@@ -2,6 +2,7 @@
 title: "Docker Desktop for Windows再インストールした"
 date: 2020-11-23T16:07:00+01:00
 categories: ["windows", "docker"]
+translationKey: "dockerforwin_uninstall"
 draft: false
 ---
 

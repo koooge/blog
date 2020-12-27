@@ -10,8 +10,12 @@ enableRobotsTXT = true
 [languages]
   [languages.ja]
     title = "ワナビーエンジニアのブログ"
+    languageName = "Japanese"
+    weight = 1
   [languages.en]
     title = "Wannabe engineer's blog"
+    languageName = "English"
+    weight = 2
 
 [markup.highlight]
   guessSyntax = true
