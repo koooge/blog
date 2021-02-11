@@ -49,7 +49,7 @@ FIXME2箇所について補足。
 
 ### configを確認しよう
 `@vue/cli` とvue.config.jsによって最終的に適用されるconfigは、[vue inspect](https://cli.vuejs.org/guide/webpack.html#inspecting-the-project-s-webpack-config)で確認できます。
-例えば下記のように出力かのうです。これで逐次確認しつつ進めました。
+例えば下記のように出力可能です。これで逐次確認しつつ進めました。
 
 ```sh
 $ vue inspect > output.js
