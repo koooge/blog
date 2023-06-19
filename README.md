@@ -10,11 +10,17 @@ Publish directory: `public`
 
 ## Usage
 ### Create a new post
-```
+```sh
 $ hugo new posts/<yyyy>/<mm>/<dd>_<title>/index.md
 ```
 
 ### preview
-```
+```sh
 $ hugo server --buildDrafts --bind=0.0.0.0 --watch
+```
+
+
+### Update theme
+```sh
+$ git submodule foreach git pull origin main
 ```
