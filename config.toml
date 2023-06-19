@@ -3,7 +3,7 @@ theme = "@koooge/hugo-theme-geppaku"
 defaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = false
 
-googleAnalytics = "UA-86293825-2" # Optional
+googleAnalytics = "G-6HEH3C6TMZ" # Optional
 disqusShortname = "koooge" # Optional
 enableRobotsTXT = true
 
