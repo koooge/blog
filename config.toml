@@ -30,6 +30,7 @@ enableRobotsTXT = true
     twitter  = "koooge"
     linkedin = "takuma-koge-888936146"
     github   = "koooge"
+    bluesky  = "koooge.bsky.social"
 
 [params]
     [params.sharebutton]
@@ -42,6 +43,7 @@ enableRobotsTXT = true
         # pocket   = true
         # Please set id when you want to display facebook
         # facebookAppId = "your app id"
+        bluesky   = true
 
     [params.adsense]
         # If you want to display Google adsense set these
