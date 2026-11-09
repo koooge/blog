@@ -30,25 +30,15 @@ enableRobotsTXT = true
     # This is Optional values
     name = "koooge"
 
-    # Please set account ids
-    # This is Optional values
-    twitter  = "koooge"
-    linkedin = "takuma-koge-888936146"
-    github   = "koooge"
-    bluesky  = "koooge.bsky.social"
+    socials = [
+        { service = "x_twitter", id = "koooge" },
+        { service = "github", id = "koooge" },
+        { service = "linkedin", id = "takuma-koge-888936146" },
+        { service = "bluesky", id = "koooge.bsky.social" },
+    ]
 
 [params]
-    [params.sharebutton]
-        # If you want to display share buttons set these
-        # This is Optional values
-        twitter  = true
-        # facebook = true
-        hatena   = true # hatena is Japanese social media
-        google   = true
-        # pocket   = true
-        # Please set id when you want to display facebook
-        # facebookAppId = "your app id"
-        bluesky   = true
+    sharebuttons = ["x_twitter", "hatena", "bluesky"]
 
     [params.adsense]
         # If you want to display Google adsense set these
