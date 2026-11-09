@@ -5,7 +5,9 @@ Wannabe engineer's blog https://koooge.com/
 
 ## Setting
 ### Netlify
-Build command: `$ hugo -t @koooge/hugo-theme-geppaku --minify`
+Build settings are managed in `netlify.toml` (Hugo 0.169.0).
+
+Build command: `$ hugo --minify`
 Publish directory: `public`
 
 ## Usage
