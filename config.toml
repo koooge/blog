@@ -7,6 +7,9 @@ googleAnalytics = "G-6HEH3C6TMZ" # Optional
 disqusShortname = "koooge" # Optional
 enableRobotsTXT = true
 
+[services.rss]
+    limit = 15
+
 [languages]
   [languages.ja]
     title = "ワナビーエンジニアのブログ"
