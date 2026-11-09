@@ -1,0 +1,9 @@
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/{{ .Get "id" }}" title="{{ .Get "title" | default "SlideShare" }}" width="595" height="485" style="border:1px solid #ccc; margin-bottom:5px; max-width:100%;" allowfullscreen></iframe>
+{{ with .Get "url" }}
+<div style="margin-bottom:5px">
+  <strong><a href="{{ . }}" target="_blank" rel="noopener">{{ $.Get "title" | default "SlideShare" }}</a></strong>
+  {{ with $.Get "author" }}
+  from <strong>{{ with $.Get "authorURL" }}<a href="{{ . }}" target="_blank" rel="noopener">{{ $.Get "author" }}</a>{{ else }}{{ . }}{{ end }}</strong>
+  {{ end }}
+</div>
+{{ end }}

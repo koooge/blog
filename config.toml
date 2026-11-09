@@ -10,17 +10,19 @@ enableRobotsTXT = true
 [languages]
   [languages.ja]
     title = "ワナビーエンジニアのブログ"
-    languageName = "Japanese"
+    locale = "ja-JP"
+    label = "Japanese"
     weight = 1
   [languages.en]
     title = "Wannabe engineer's blog"
-    languageName = "English"
+    locale = "en-US"
+    label = "English"
     weight = 2
 
 [markup.highlight]
   guessSyntax = true
 
-[author]
+[params.author]
     # If you want to display author information set these
     # This is Optional values
     name = "koooge"

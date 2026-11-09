@@ -9,7 +9,7 @@ aliases: ["/post/20180931_cndjp7/"]
 [cndjp](https://cnd.connpass.com/event/93986/)でkubernetes環境のmackerelでの監視についてLTしてきました。
 
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/aqYuLn1At1EeCY" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/koooge/mackerel-on-k8s-107695015" title="Mackerel on k8s" target="_blank">Mackerel on k8s</a> </strong> from <strong><a href="https://www.slideshare.net/koooge" target="_blank">koooge</a></strong> </div>
+{{< slideshare id="aqYuLn1At1EeCY" title="Mackerel on k8s" url="https://www.slideshare.net/koooge/mackerel-on-k8s-107695015" author="koooge" authorURL="https://www.slideshare.net/koooge" >}}
 
 Mackerelは、はてな社が作っているマネージドのサーバー監視のサービスで直訳すると鯖です。
 

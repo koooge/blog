@@ -20,6 +20,7 @@ return書く派の方々は何で書くんですかね。理由を聞きたい�
 javaはおそらくCと変わりないと思いますが、動的型付け言語のRubyなどではどうなのでしょう。
 rubyとかは最後に評価された式を返しますので、returnとか書かないを思います
 
+```text
 irb(main):001:0>
 irb(main):002:0* def func
 irb(main):003:1>   value = 1 + 1
@@ -48,6 +49,7 @@ irb(main):014:1> end
 irb(main):015:0> p func_value
 2
 => 2
+```
 
 
 どれも結果は同じですが、
@@ -60,16 +62,19 @@ RubyVM::InstructionSequence.compile(code).disasmを使ってYARVを見ます。
 
 sdiffの結果を表示します。左がfuncで右がfunc_returnです。
 
+```text
 code = <<END                                                    code = <<END
 def func                                                      | def func_return
                                                               >   return
 end                                                             end
 END                                                             END
 puts RubyVM::InstructionSequence.compile(code).disasm           puts RubyVM::InstructionSequence.compile(code).disasm
+```
 
 
 結果
 
+```text
 == disasm: #<ISeq:<compiled>@<compiled>>=====================   == disasm: #<ISeq:<compiled>@<compiled>>=====================
 0000 trace            1                                         0000 trace            1
 0002 putspecialobject 1                                         0002 putspecialobject 1
@@ -82,6 +87,7 @@ puts RubyVM::InstructionSequence.compile(code).disasm           puts RubyVM::Ins
 0002 putnil                                                     0002 putnil
 0003 trace            16                                      | 0003 trace            16
 0005 leave                                                      0005 leave
+```
 
 
 むむ、rubyは全く同じになりました。
