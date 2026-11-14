@@ -35,6 +35,7 @@ enableRobotsTXT = true
         { service = "github", id = "koooge" },
         { service = "linkedin", id = "takuma-koge-888936146" },
         { service = "bluesky", id = "koooge.bsky.social" },
+        { service = "slideshare", id = "koooge" },
     ]
 
 [params]
